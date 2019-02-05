@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <RootNamespace>ResidualNet</RootNamespace>
+
+    <LangVersion>latest</LangVersion>
+
+    <Version>0.0.32</Version>
+
+    <Copyright>Copyright © Andrey Tsybin 2015-2018</Copyright>
+
+    <PackageTags>containers</PackageTags>
+
+    <Authors>Andrey Tsybin</Authors>
+
+    <Product>Residual.Net</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.4.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ResidualNet.Containers\ResidualNet.Containers.csproj" />
+  </ItemGroup>
+
+</Project>
